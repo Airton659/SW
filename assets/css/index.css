@@ -22,6 +22,7 @@ body::before {
     height: 100%;
     position: absolute;
     opacity: .2;
+    transition:  background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 .item {
@@ -49,6 +50,7 @@ body::before {
     width: calc(100% / 3 -8%);
     height: 70vh;
     position: relative;
+    transition: filter .5s ease-in-out;
 }
 
 .cbackground {
@@ -74,8 +76,10 @@ body::before {
     text-align: center;
     position: absolute;
     width: 100%;
-    /* bottom: 0; */
+    bottom: 0;
     color: #0074FF;
+    transition: bottom 1s ease-in-out;
+
 }
 
 .controller {
@@ -125,4 +129,29 @@ body::before {
 
 .chovered .cimagem {
     transform: scale(1.4);
+    filter: drop-shadow(30px 10px 4px rgba(0,0,0, .5));
+}
+
+body#eIVhovered::before {
+    background-image: url('../images/EIV.jpg');
+}
+
+body#eVhovered::before {
+    background-image: url('../images/EV.jpg');
+}
+
+body#eVIhovered::before {
+    background-image: url('../images/EVI.jpg');
+}
+
+body[id^="e"]::before {
+    opacity: 1;
+}
+
+body[id^="e"] .cartao:not(.chovered) {
+    filter: grayscale(100%);
+}
+
+.chovered .ctitulo {
+    bottom: 30%;
 }
