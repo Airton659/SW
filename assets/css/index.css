@@ -1,0 +1,128 @@
+@import url('./reset.css');
+@import url('./global.css');
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+.menu {
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .2;
+}
+
+.item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1.25rem;
+
+}
+
+.icone {
+    width: 2.5rem;
+    margin: 0 1.25rem;
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cartao {
+    border: 0.2rem solid #ffe81f;
+    width: calc(100% / 3 -8%);
+    height: 70vh;
+    position: relative;
+}
+
+.cbackground {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.cimagem {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+
+.ctitulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    /* bottom: 0; */
+    color: #0074FF;
+}
+
+.controller {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.cbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: var(--cor-primaria);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cbutton:hover {
+    transform: scale(1.1);
+}
+
+.cbutton:nth-child(2) {
+    margin: 0 3.75rem;
+}
+
+.cline {
+    background-color: white;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+}
+
+.chovered .cbackground {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.chovered .cimagem {
+    transform: scale(1.4);
+}
