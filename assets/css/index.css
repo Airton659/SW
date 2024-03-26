@@ -63,6 +63,7 @@ body::before {
     width: 100%;
     bottom: 0;
     color: #ffe81f;
+    text-shadow: 2px 2px black; 
     transition: bottom 1s ease-in-out;
 
 }
