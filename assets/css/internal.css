@@ -1,0 +1,98 @@
+@import url('reset.css');
+@import url('global.css');
+@import url('components/navigator.css');
+@import url('components/pills.css');
+@import url('components/blink.css');
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+}
+
+.wrapper .coluna {
+    width: 100px;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.wrapper .conteudo {
+    height: 100%;
+    width: 100%;
+    background-color: gray ;
+    padding-left: 130px;
+}
+
+.wrapper .top {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wrapper .bottom {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.wrapper .conteudo .logo img {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    max-width: 350px;
+    max-height: 150px;
+    height: auto;
+    width: auto;
+}
+
+.wrapper .top .descricao {
+    background-color: rgba(255,232,31,.7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.wrapper .top .descricao .texto p {
+    color: white;
+    line-height: 170%; 
+    text-align: justify;
+}
+
+.wrapper .top .descricao .pills {
+    margin-bottom: 20px;
+}
+
+.wrapper .conteudo .links {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.wrapper .conteudo .links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.epiv {
+    background-image: url('../../assets/images/EpisodioIV/bg.jpg');
+    background-size: cover;
+}
+
+.epv {
+    background-image: url('../../assets/images/EpisodioV/bg.jpg');
+    background-size: cover;
+}
+
+.epvi {
+    background-image: url('../../assets/images/EpisodioVI/bg.jpg');
+    background-size: cover;
+}

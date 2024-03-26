@@ -1,0 +1,20 @@
+.menu {
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+}
+
+.item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 1.25rem;
+
+}
+
+.icone {
+    width: 2.5rem;
+    margin: 0 1.25rem;
+    vertical-align: middle;
+}
