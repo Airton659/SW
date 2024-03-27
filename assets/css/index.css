@@ -1,9 +1,13 @@
 @import url('./reset.css');
 @import url('./global.css');
 @import url('./components/menu.css');
+@import url('./components/footer.css');
 
 body {
     background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -21,6 +25,9 @@ body::before {
     transition:  background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
 
+main {
+    flex-grow: 1;
+}
 
 .container {
     position: relative;

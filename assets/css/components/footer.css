@@ -1,0 +1,30 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50%;
+}
+
+/* footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  } */
