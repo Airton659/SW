@@ -25,6 +25,12 @@ body::before {
     transition:  background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
 
+.menu .item a {
+    font-size: auto;
+    color: var(--cor-texto-menu);
+    text-decoration: none;
+}
+
 main {
     flex-grow: 1;
 }
@@ -38,7 +44,7 @@ main {
 }
 
 .cartao {
-    border: 0.2rem solid #ffe81f;
+    border: 0.2rem solid var(--cor-borda);
     width: calc(100% / 3 -8%);
     height: 70vh;
     position: relative;
@@ -63,13 +69,13 @@ main {
 }
 
 .ctitulo {
-    font-size: 2rem;
+    font-size: auto;
     text-transform: uppercase;
     text-align: center;
     position: absolute;
     width: 100%;
     bottom: 0;
-    color: #ffe81f;
+    color: var(--cor-borda);
     text-shadow: 2px 2px black; 
     transition: bottom 1s ease-in-out;
 
@@ -100,16 +106,8 @@ main {
     transition: transform 0.3s ease-in-out;
 }
 
-.cbutton:hover {
-    transform: scale(1.1);
-}
-
-.cbutton:nth-child(2) {
-    margin: 0 3.75rem;
-}
-
 .cline {
-    background-color: white;
+    background-color: var(--cor-texto);
     width: 50%;
     height: 2px;
     position: absolute;

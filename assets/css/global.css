@@ -1,9 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --cor-primaria: #000
+    --cor-primaria: #000;
+    --cor-borda: #ffe81f;
+    --cor-bg:  rgba(255,232,31,.7);
+    --cor-texto: white;
+    --cor-texto-menu: white;
+    --cor-bg-menu: transparent;
+}
+
+.dark-mode:root {
+    --cor-borda: white;
+    --cor-bg: rgba(169,169,169,.7);
+    --cor-texto:#000;
+    --cor-texto-menu:gray;
 }
 
 body{
     font-family: "Roboto", sans-serif;
+}
+
+button {
+    background-color: var(--cor-primaria);
+    padding: .4rem;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+svg {
+    color: white;
+    width: 24px;
+    height: 24px;
 }

@@ -3,6 +3,8 @@
 @import url('components/navigator.css');
 @import url('components/pills.css');
 @import url('components/blink.css');
+@import url('components/footer.css');
+
 
 .wrapper {
     display: flex;
@@ -27,8 +29,9 @@
 .wrapper .conteudo {
     height: 100%;
     width: 100%;
-    background-color: gray ;
+    /* background-color: gray ; */
     padding-left: 130px;
+    flex: 1;
 }
 
 .wrapper .top {
@@ -56,14 +59,14 @@
 }
 
 .wrapper .top .descricao {
-    background-color: rgba(255,232,31,.7);
+    background-color: var(--cor-bg);
     max-width: 50%;
     padding: 20px;
     border-radius: 10px;
 }
 
 .wrapper .top .descricao .texto p {
-    color: white;
+    color: var(--cor-texto);
     line-height: 170%; 
     text-align: justify;
 }
