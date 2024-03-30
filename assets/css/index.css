@@ -11,15 +11,8 @@ body {
     min-height: 100vh;
 }
 
-.menu .toogle {
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
 .troca-dv {
+    margin-bottom: 10px;
     width: 2.3rem;
     height: 2.3rem;
     cursor: pointer;
@@ -34,6 +27,7 @@ body {
 }
 
 .dark-mode .troca-ss {
+    margin-bottom: 10px;
     display: inline;
     width: 2.3rem;
     height: 2.3rem;
