@@ -19,19 +19,3 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-
-button {
-    background-color: var(--cor-primaria);
-    padding: .4rem;
-    border: none;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-}
-
-svg {
-    color: white;
-    width: 24px;
-    height: 24px;
-}

@@ -25,3 +25,5 @@ function addEventListenersToCards() {
 
 /*método para chamar as funções definidas*/
 document.addEventListener("DOMContentLoaded", addEventListenersToCards, false)
+
+

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/index.css">
     <script src="./assets/scripts/anim_cart.js"></script>
+    <script src="./assets/scripts/dm.js" defer></script>
     <title>Star Wars: Trilogia Original</title>
 </head>
+
 <body>
     <header>
         <nav class="menu">
@@ -17,10 +20,12 @@
                     <a href="./paginas/episodioIV/epiIV.html">Episódio IV</a>
                 </li>
                 </li>
-                    <a href="./index.html">
-                        <img id="clique" src="./assets/images/dv.ico" alt="Darth Vader" width="25rem" height="25rem">
-                    </a>
-                       </li>
+                    <input type="checkbox" name="change-theme" id="change-theme">
+                    <label for="change-theme">
+                        <img class="troca-dv" src="./assets/images/dv.ico">
+                        <img class="troca-ss" src="./assets/images/SS.png">
+                    </label>
+                </li>
                 <li class="item">
                     <a href="./paginas/episodioV/epiV.html">Episódio V</a>
                 </li>
@@ -52,9 +57,12 @@
     </main>
     <footer>
         <div class="f">
-            <div><p>Desenvolvido por José Airton PDITA: 063</p></div>
+            <div>
+                <p>Desenvolvido por José Airton PDITA: 063</p>
+            </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
