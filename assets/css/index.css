@@ -2,36 +2,13 @@
 @import url('./global.css');
 @import url('./components/menu.css');
 @import url('./components/footer.css');
-@import url('./components/DM.css');
+/* @import url('./components/DM.css'); */
 
 body {
     background-color: var(--cor-primaria);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-.troca-dv {
-    margin-bottom: 10px;
-    width: 2.3rem;
-    height: 2.3rem;
-    cursor: pointer;
-}
-
-.troca-ss {
-    display: none;
-}
-
-.dark-mode .troca-dv {
-    display: none;
-}
-
-.dark-mode .troca-ss {
-    margin-bottom: 10px;
-    display: inline;
-    width: 2.3rem;
-    height: 2.3rem;
-    cursor: pointer;
 }
 
 body::before {
@@ -45,12 +22,6 @@ body::before {
     position: absolute;
     opacity: .2;
     transition:  background-image 1s ease-in-out, opacity 1s ease-in-out;
-}
-
-.menu .item a {
-    font-size: auto;
-    color: var(--cor-texto-menu);
-    text-decoration: none;
 }
 
 main {

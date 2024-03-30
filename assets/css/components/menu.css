@@ -18,3 +18,32 @@
     margin: 0 1.25rem;
     vertical-align: middle;
 }
+
+.menu .item a {
+    font-size: auto;
+    color: var(--cor-texto-menu);
+    text-decoration: none;
+}
+
+.troca-dv {
+    /* margin-bottom: 10px; */
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+.troca-ss {
+    display: none;
+}
+
+.dark-mode .troca-dv {
+    display: none;
+}
+
+.dark-mode .troca-ss {
+    /* margin-bottom: 10px; */
+    display: inline;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
