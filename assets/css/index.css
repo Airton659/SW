@@ -5,7 +5,7 @@
 /* @import url('./components/DM.css'); */
 
 body {
-    background-color: var(--cor-primaria);
+    background-color: black;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -37,7 +37,7 @@ main {
 }
 
 .cartao {
-    border: 0.2rem solid var(--cor-borda);
+    border: 0.2rem solid var(--cor-2);
     width: calc(100% / 3 -8%);
     height: 70vh;
     position: relative;
@@ -68,7 +68,7 @@ main {
     position: absolute;
     width: 100%;
     bottom: 0;
-    color: var(--cor-borda);
+    color: var(--cor-2);
     text-shadow: 2px 2px black; 
     transition: bottom 1s ease-in-out;
 

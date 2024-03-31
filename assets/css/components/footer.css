@@ -20,7 +20,7 @@
 }
 
 .f p {
-    color:var(--cor-texto-menu);
+    color:var(--cor-3);
     font-size: smaller;
     padding-top: 3px;
 }

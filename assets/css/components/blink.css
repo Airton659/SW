@@ -2,15 +2,15 @@ a.lbutton {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--cor-1);
 }
 
 a.lbutton .icon{
     width: 32px;
     height: 32px;
     padding: 3px;
-    background-color: var(--cor-primaria);
-    border: solid 1px white;
+    background-color: var(--cor-1);
+    border: solid 1px var(--cor-4);
     background-clip: content-box;
     border-radius: 50%;
     position: relative;
@@ -20,7 +20,7 @@ a.lbutton .icon{
 }
 
 a.lbutton .icon .play {
-    border: solid 7px white;
+    border: solid 7px var(--cor-4);
     width: 0;
     height: 0;
     border-top-color: transparent;
@@ -29,6 +29,6 @@ a.lbutton .icon .play {
     margin-right: -7px;
 }
 
-a.lbutton .laben {
+a.lbutton .label {
     margin-left: 10px;
 }

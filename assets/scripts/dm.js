@@ -19,10 +19,7 @@ function loadTheme(theme) {
 loadTheme(themeSystem);
 
 
-// function toggleDarkMode (theme) {
-//     root.classList.toggle("dark-mode");
-// }
-
+//Aplicando o tema desejado
 changeThemeBtn.addEventListener("change",function() {
     let tema = localStorage.getItem('themeSystem')
     

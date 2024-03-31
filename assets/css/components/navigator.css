@@ -20,12 +20,12 @@
 } */
 
 .navigator ul li a{
-    color: white;
-    border: solid 2px #ffe81f;
+    color: var(--cor-6);
+    border: solid 2px var(--cor-4);
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: black;
+    background-color: var(--cor-2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
     top: 0;
     width: 2px;
     height: 100%;
-    background-color: #ffe81f;
+    background-color: var(--cor-2);
     z-index: 0;
 }
 
@@ -47,8 +47,8 @@
 
 .navigator ul li a:hover,
 .navigator ul li a.active {
-    color: var(--cor-primaria);
-    background-color: #ffe81f;
+    color: var(--cor-1);
+    background-color: var(--cor-5);
 }
 
 .navigator .icone2 {
