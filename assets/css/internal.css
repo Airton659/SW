@@ -6,6 +6,40 @@
 @import url('components/footer.css');
 @import url('components/menu.css');
 
+@media only screen and (max-width: 700px) {
+    * {
+        font-size: xx-small;
+        text-align: left;
+    }
+    .wrapper .top .descricao {
+        min-width: 100%;
+    }
+    main {
+        min-width: 100%;
+        font-size: larger;
+    }
+    main .conteudo .top .logo img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper .coluna {
+        display: none;
+    }
+    .wrapper .top {
+        margin-right: 15px;
+    }
+    .wrapper .top .descricao .pills li {
+        min-width: 65px;
+        text-align: center;
+        font-size: xx-small;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+}
+
 
 .wrapper {
     display: flex;
@@ -29,11 +63,18 @@
 
 .wrapper .conteudo {
     height: 100%;
+    /* max-width: 100%; */
     width: 100%;
     /* background-color: gray ; */
     padding-left: 130px;
     flex: 1;
+    overflow: auto;
 }
+
+/* .wrapper .conteudo .descricao  {
+    width: 80rem;
+    height: 80rem;
+} */
 
 .wrapper .top {
     height: 80vh;
@@ -56,19 +97,22 @@
     max-width: 350px;
     max-height: 150px;
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 .wrapper .top .descricao {
     background-color: var(--cor-3);
+    /* width: 80rem; */
+    /* flex-wrap: wrap; */
     max-width: 50%;
     padding: 20px;
     border-radius: 10px;
+
 }
 
 .wrapper .top .descricao .texto p {
     color: var(--cor-1);
-    line-height: 170%; 
+    line-height: 170%;
     text-align: justify;
     font-size: 100%;
 }
@@ -87,17 +131,22 @@
     flex-direction: row;
 }
 
+.airton {
+    background-image: url('../images/Airton/bg.jpg');
+    background-size: cover;
+}
+
 .epiv {
-    background-image: url('../../assets/images/EpisodioIV/bg.jpg');
+    background-image: url('../images/EpisodioIV/bg.jpg');
     background-size: cover;
 }
 
 .epv {
-    background-image: url('../../assets/images/EpisodioV/bg.jpg');
+    background-image: url('../images/EpisodioV/bg.jpg');
     background-size: cover;
 }
 
 .epvi {
-    background-image: url('../../assets/images/EpisodioVI/bg.jpg');
+    background-image: url('../images/EpisodioVI/bg.jpg');
     background-size: cover;
 }

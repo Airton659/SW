@@ -1,6 +1,23 @@
+@media only screen and (max-width: 400px) {
+    .wrapper .top .descricao .pills li {
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        padding: 0;
+        margin-bottom: 3px;
+        margin-left: 0;
+    }
+    .wrapper .top .descricao .pills ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
 .pills ul {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .pills ul li {

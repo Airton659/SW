@@ -32,3 +32,17 @@ a.lbutton .icon .play {
 a.lbutton .label {
     margin-left: 10px;
 }
+
+.links {
+    display: flex;
+}
+
+.links .in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links .in p {
+    color: var(--cor-1);    
+}
