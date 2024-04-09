@@ -7,8 +7,8 @@ Este é um projeto inspirado na famosa série de filmes de Star Wars. Ele foi de
 O projeto consiste em:
 
 1. **HTML**: A estrutura básica do documento.
-2. **CSS**: Estilização para criar o fundo preto e os efeitos de estrelas.
-3. **JavaScript**: Animação da introdução com texto e efeitos.
+2. **CSS**: Estilização.
+3. **JavaScript**: Alteração do esquema de cores.
 
 ## Como Executar
 
